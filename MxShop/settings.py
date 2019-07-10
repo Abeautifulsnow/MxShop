@@ -72,7 +72,7 @@ MIDDLEWARE = [
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
-    'localhost:8000',
+    'http://localhost:8000',
 )
 
 ROOT_URLCONF = 'MxShop.urls'
@@ -124,7 +124,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxshop',        #数据库名字
         'USER': 'root',          #账号
-        'PASSWORD': '123456',    #密码
+        'PASSWORD': 'ln122920',    #密码
         # 'HOST': '47.93.198.159',     #IP
         'HOST': '127.0.0.1',     #IP
         'PORT': '3306',          #端口
